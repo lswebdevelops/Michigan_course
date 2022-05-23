@@ -5,13 +5,49 @@ body{
    text-align: center;
 
 }
+
+
+/* navigation bar  */
 #nav1{
     background-color: rgb(209, 207, 207);
     font-size: large;
-    padding: 7px;
+    display: flex;
+    flex-wrap:wrap;
     margin: 3px;
     border: 1px solid gray;
+  
+   
+    padding: 5px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-row-gap:5px;
+    grid-template-columns: 200px 200px 200px 200px;
 }
+
+.grid-item {
+    background-color: rgb(87, 86, 86);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+/* #firstProject, #secondProject, #thirdProject, #fourthProject {
+    
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(151, 150, 150);
+    float: left;
+    margin-right: 29px;
+    text-align: center;
+    text-align: vertically
+ 
+} */
+
+
+
+    
 h2{
     text-align: left;
    
@@ -31,7 +67,7 @@ label, progress{
 as I used !important above, it will leave the Times below aside*/
 label{ 
     
-    color:blue;
+    color:rgb(255, 255, 255);
     font-family: Times;
 }
 h1{
@@ -39,9 +75,11 @@ h1{
 }
 
 
-#divA{
-height: 20px;
-    width: 45%;
-    background-color: aquamarine;
-    text-align: center;
+#divA , #divB ,  #divC,  #divD {
+
+  text-align: left;
+    background-color: rgb(69, 71, 71);
+    margin: 5px;
+    padding: 5px;
 }
+ 
