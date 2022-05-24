@@ -83,7 +83,7 @@ h1{
 
 #divA , #divB ,  #divC,  #divD {
 
-  text-align: left;
+  
     background-color: rgb(69, 71, 71);
     margin: 5px;
     padding: 5px;
@@ -105,6 +105,34 @@ a {
     margin: 3px;
     padding: 10px;
     width: 200px;
-   
+ 
     
 }
+
+.spanS{
+    height: 35px;
+    width: 75px;
+    background-color: rgb(170, 165, 165);
+    float: top;
+    text-align: right;
+    clear: both;
+    display: inline-flex;
+    margin-right:2px;
+    padding: 3px;
+}
+
+
+#scrollHide{
+width: 30%;
+background-color: aquamarine;
+height:30%;
+display: table-cell;
+float: top;
+border: 5px solid beige;
+
+margin: 15px;
+padding: 15px;
+
+
+}
+
